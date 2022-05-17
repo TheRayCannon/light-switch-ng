@@ -9,6 +9,4 @@ export class NightLightComponent {
 
   constructor() { }
 
-
-
 }

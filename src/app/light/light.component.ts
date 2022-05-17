@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-light',
@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class LightComponent {
 
-  constructor() { }
+ 
 
 
 }
