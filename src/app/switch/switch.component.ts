@@ -15,5 +15,4 @@ export class SwitchComponent  {
     this.waveWand.emit()
     console.log("clck")
   }
-
 }
