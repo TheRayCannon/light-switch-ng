@@ -1,5 +1,6 @@
-import { outputAst } from '@angular/compiler';
-import { Component, Output, Input, EventEmitter } from '@angular/core';
+
+import { Component, Output, EventEmitter } from '@angular/core';
+
 
 
 @Component({
@@ -9,6 +10,10 @@ import { Component, Output, Input, EventEmitter } from '@angular/core';
 })
 export class SwitchComponent  {
 
- 
+  @Output() waveWand = new EventEmitter
+  onClick(){
+    this.waveWand.emit()
+    console.log("clck")
+  }
 
 }

@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./night-light.component.css']
 })
 export class NightLightComponent {
-
-  constructor() { }
-
+ lumos = false
+ castLumos(){
+   this.lumos = !this.lumos
+   console.log(this.lumos)
+ }
 }
