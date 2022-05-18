@@ -1,3 +1,5 @@
+Deployed site: https://verdant-profiterole-25439c.netlify.app/
+
 # Light Switch (Angular Edition)
 
 Create an Angular app that has the following:
