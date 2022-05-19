@@ -9,6 +9,5 @@ export class NightLightComponent {
  lumos = false
  castLumos(){
    this.lumos = !this.lumos
-   console.log(this.lumos)
  }
 }

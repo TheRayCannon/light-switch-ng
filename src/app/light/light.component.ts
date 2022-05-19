@@ -7,5 +7,4 @@ import { Component, Input } from '@angular/core';
 })
 export class LightComponent {
 @Input() status!: boolean
-
 }
